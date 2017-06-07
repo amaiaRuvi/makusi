@@ -1,6 +1,6 @@
 Software version:	LRR v5.4.4					
 VARIABLES	5					
-STRUCTURES	10					
+STRUCTURES	12					
 						
 VARIABLE	NAME	SIZE	TYPE	ADDRESS	FILE	DECODE AS
 serialNumber	nums	4	Data	Param_equipo	fileflsh.o(.data)	ascii
