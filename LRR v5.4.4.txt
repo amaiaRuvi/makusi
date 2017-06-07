@@ -1,0 +1,19 @@
+Software version:	LRR v5.4.4					
+VARIABLES	5					
+STRUCTURES	10					
+						
+VARIABLE	NAME	SIZE	TYPE	ADDRESS	FILE	DECODE AS
+serialNumber	nums	4	Data	Param_equipo	fileflsh.o(.data)	ascii
+baseChannel	basecanal	1	Data	0x200022c8	tm_rec.o(.data)	dec
+idModel	IDModel	4	Data	Param_equipo	fileflsh.o(.data)	dec
+txID	indiceID	1	Data	0x2000224b	tm_rec.o(.data)	number
+workChannel	trabcanal	1	Data	0x200022c9	tm_rec.o(.data)	dec
+						
+STRUCTURE	SIZE	ADDRESS/HOP				
+Param_equipo	2	0x20002348				
+nums	11	1				
+IDModel	1	16				
+estructura_inventada	3	0x20006969				
+amaia1	1	0				
+amaia2	1	1				
+amaia3	1	2				
